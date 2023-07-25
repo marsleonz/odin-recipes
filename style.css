@@ -10,13 +10,13 @@ h3{
     text-align: center;
 }
 
-ul li, ol li{
-    text-align: center;
-    
-}
 ul li{
-    
+    text-align: center;
+}
+
+ul li{
     list-style: none;
+    margin-left: -40px;
 }
 img{
     align-content: center;
@@ -28,4 +28,8 @@ img{
 }
 p{
     text-align: center;
+}
+.ordered-list, .unordered-list{
+    width: 800px;
+    margin: auto;
 }

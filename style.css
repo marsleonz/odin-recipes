@@ -1,31 +1,34 @@
 body{
-    background-color: wheat;
+    background-color: #eee;
+    ;
 }
 h1{
-    color: red;
+    color: darkred;
     text-align: center;
 }
 h3{
-    color: blueviolet;
+    color: red;
     text-align: center;
 }
-
-
-
 
 img{
     align-content: center;
     height: auto;
     width: 600px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 p, .ordered-list, .unordered-list{
     width: 600px;
-    margin: auto;
+    margin: 0 auto;
 }
 .unordered-list{
     width: 350px;
+}
+.recipe-card{
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 8px;
 }
